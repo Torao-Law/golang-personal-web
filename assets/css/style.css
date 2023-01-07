@@ -16,3 +16,67 @@ body {
 .desc_person {
     text-align: justify;
 }
+
+* detailblog */
+.containerBlog {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detailHeader {
+    text-align: center;
+}
+
+.cardInfo {
+    display: flex;
+}
+
+.imgInfo {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.imgInfo img {
+    width: 100%;
+    height: 350px;
+}
+
+.detailBody {
+    display: flex;
+    text-align: justify;
+}
+
+.itemTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.projectStack {
+    margin-top: 32px;
+
+}
+
+.stackDesc {
+    display: flex;
+    flex-direction: row;
+}
+
+.stackDesc ul {
+    padding: 0;
+    margin: 0;
+}
+
+.stackDesc ul li {
+    list-style: none;
+    margin-right: 32px;
+    margin-bottom: 18px;
+}
+
+.stackItem i {
+    font-size: 24px;
+    margin-right: 10px;
+}
